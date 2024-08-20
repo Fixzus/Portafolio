@@ -3,8 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="Img/porta.png">
+    <SCRIPT SRC="JS/JavaScript.js"></SCRIPT>
 </head>
 <body>
+<header>
+    <div class="topnav" id="myTopnav">
+        <a href="#Introduccion" class="active">Introducción</a>
+        <a href="#Experiencia">Experiencia</a>
+        <a href="#Proyectos">Proyectos</a>
+        <a href="#Contacto">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+    <section id="Introduccion">
+    <h1>Fixzus Schaimee Kry</h1>
+        <h3>Aficionado por la computación desde muy pequeño. Siempre armando y desarmando pc, aunque programar no fue mi primera opción de carrera la verdad, estudie Ing Civil en Metalurgia en la usach donde debido a un accidente no pude seguir, eso me redujo bastante las opciones de carrera y algo que para mi siempre fue un hobby se volvió una buena opción. Aca estoy varios años después programando en distintos lenguajes y dispuesto a ayudarte en el proyecto que necesites, solo dale un vistazo a mi portafolio y veras de lo que soy capaz</h3>
+    </section>
+
+    <section id="Experiencia">
+        <h2>Experiencia</h2>
+        <h3>Tengo experiencia programando en Java, Python, C+, Javascript, Arduino, entre otros lenguajes, manejo tanto Front como Backend además de poder hacer aplicaciones Java para android, me desempeño principalmente como fullstack de Java y Python, pero si tienes algo en mente de seguro podré hacerla realidad.</h3>
+    </section>
+
+    <section id="Proyectos">
+
+        <h2>Proyectos</h2>
+        <h3></h3>
+
+    </section>
+
+    <section id="Contacto">
+
+        <form class="form1" id="frm" method="get" action="#">
+            <fieldset>
+                <legend style="alignment-baseline: center; color: aliceblue"> CONTACTAME </legend>
+                <div>
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required/>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" required/>
+                </div>
+                <div>
+                    <label for="email"> Email:</label>
+                    <input type="text" name="email" id="email" required/>
+                </div>
+                <div>
+                    <label for="informacion"> Consulta: </label>
+                    <textarea cols="20" rows="10" required></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <div class="centro">
+                <input class="btn" type="submit" name="bntEnviar" id="btnEnviar" value="Enviar" onclick="contacto()"/>
+            </div>
+        </form>
+
+    </section>
 
 </body>
 </html>
