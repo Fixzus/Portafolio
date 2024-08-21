@@ -8,9 +8,9 @@ function myFunction() {
     }
 }
 function contacto(){
-    if (document.getElementById("nombre")!==""){
-        const name = document.getElementById("nombre");
-        alert(name +" en breve te responderemos");
+    const name = document.getElementById("nombre").value;
+    if (name!==""){
+        alert("               "+name +"\n"+" Tu email ha sido enviado,"+"\n"+"En breve te responderemos");
     }else {
         alert("complete los campos");
     }

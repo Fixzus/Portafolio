@@ -1,7 +1,10 @@
 section {
     min-height: 100vh;
     padding-top: 4rem;
-    background-color: lightsteelblue;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    color: ghostwhite;
+    text-shadow: dodgerblue 2px 2px;
 }
 header {
     min-width: 100vw;
@@ -25,6 +28,9 @@ label{
     margin: 50px auto;
     border-style: solid;
     border-radius: 20px;
+}
+.formulario{
+    margin-left: 40%;
 }
 input, textarea{
     width : 310px;
@@ -58,8 +64,9 @@ fieldset{
     color: dimgrey;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    text-decoration: wavy;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Change the color of links on hover */
