@@ -56,8 +56,17 @@
                     <input type="text" name="email" id="email" required/>
                 </div>
                 <div>
-                    <label for="informacion"> Consulta: </label>
-                    <textarea cols="20" rows="10" required></textarea>
+                    <label for="motivo"> </label>
+                    <select name="motivo" id="motivo" required>
+                        <option value="0"> Seleccione</option>
+                        <option value="1"> Consulta </option>
+                        <option value="2"> Sugerencia </option>
+                        <option value="3"> Reclamo </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="informacion"> Comentarios: </label>
+                    <textarea cols="20" rows="10" id="informacion" required></textarea>
                 </div>
             </fieldset>
             <br>
