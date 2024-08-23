@@ -22,7 +22,7 @@ function contacto(){
     }if (motivo=== "2") {
         alert("               "+name +"\n"+"gracias por tus comentarios,"+"\n"+"          los analizaremos");
     }if (motivo=== "3") {
-        alert("               "+name +"\n"+"  Lamentamos lo ocurrido,"+"\n"+"En breve te solucionaremos");
+        alert("               "+name +"\n"+"  Lamentamos lo ocurrido,"+"\n"+"En breve lo solucionaremos");
     }else {
         stop();
     }
